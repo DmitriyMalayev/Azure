@@ -1,6 +1,5 @@
 
 # If you choose to implement a private cloud model and use a third-party resource to host the resources, how do those resources remain private?
-
 `by hosting them on a dedicated and private network that's only available to your organization`
 by hosting them only on data centers within a 100-mile radius of your organization
 by building a dedicated datacenter solely for your resources
