@@ -125,13 +125,6 @@ B. A configuration file, the code, and an automated CI/CD pipeline
 D. A blob storage container and an app service
 
 # When using Azure Batch, you have to use the default number of compute nodes.
+
 `FALSE`
 TRUE
-
-
-
-
-
-
-
-
