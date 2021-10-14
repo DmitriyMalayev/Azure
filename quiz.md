@@ -45,8 +45,47 @@ A, B, D
 
 
 # Employing a strategy called _____ regions, you can take advantage of features like automatic replication and strategically executed maintenance.
-
 double
 `paired`
 sister
 twin
+
+# What's the difference between scaling up versus scaling out, in the context of Azure App Services?
+
+Scaling up means moving from on-premise infrastructure to cloud infrastructure while scaling out means using an offshore third-party provider.
+`Scaling up means enhancing your existing infrastructure while scaling out means increasing the number of instances you have to work with.`
+Scaling up means developing your applications at a faster rate while scaling out means adding more features to your application.
+
+# Azure App Service only supports .NET and .NET Core.
+`FALSE`
+TRUE
+
+
+# CosmosDB is a great alternative to SQL Server and SQL database.
+`FALSE`
+TRUE
+
+
+# If you want greater control over the database engine, which option from Azure SQL would you choose?
+`SQL Server running on an Azure VM`
+Azure SQL Database
+Managed SQL Instance
+Hyperscale SQL Database
+
+# In which scenario would you choose Blob Storage over Files Storage?
+if you need an internal file share
+`to directly serve images or large documents to a browser`
+if your application is already integrated with a native file system API
+if you need to integrate with the SMB protocol
+
+# Cosmos DB is classified as a foundational service in Azure, which means it's available in every region.
+`TRUE`
+FALSE
+
+# What kind of data does Blob Storage primarily deal with?
+large, structured data
+only video
+`large, unstructured data`
+only audio
+
+
