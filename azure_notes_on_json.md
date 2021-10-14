@@ -1,3 +1,43 @@
 dmitriy@Azure:~$ az appservice plan create --name dev-cakes-api --resource-group cloud-shell-storage-eastus --sku FREE
 Resource provider 'Microsoft.Web' used by this operation is not registered. We are registering for you.
 Registration succeeded.
+```json
+{
+  "freeOfferExpirationTime": null,
+  "geoRegion": "East US",
+  "hostingEnvironmentProfile": null,
+  "hyperV": false,
+  "id": "/subscriptions/829be2fa-8e06-4d38-b363-2baa3aa22500/resourceGroups/cloud-shell-storage-eastus/providers/Microsoft.Web/serverfarms/dev-cakes-api",
+  "isSpot": false,
+  "isXenon": false,
+  "kind": "app",
+  "location": "eastus",
+  "maximumElasticWorkerCount": 1,
+  "maximumNumberOfWorkers": 0,
+  "name": "dev-cakes-api",
+  "numberOfSites": 0,
+  "perSiteScaling": false,
+  "provisioningState": "Succeeded",
+  "reserved": false,
+  "resourceGroup": "cloud-shell-storage-eastus",
+  "sku": {
+    "capabilities": null,
+    "capacity": 0,
+    "family": "F",
+    "locations": null,
+    "name": "F1",
+    "size": "F1",
+    "skuCapacity": null,
+    "tier": "Free"
+  },
+  "spotExpirationTime": null,
+  "status": "Ready",
+  "subscription": "829be2fa-8e06-4d38-b363-2baa3aa22500",
+  "systemData": null,
+  "tags": null,
+  "targetWorkerCount": 0,
+  "targetWorkerSizeId": 0,
+  "type": "Microsoft.Web/serverfarms",
+  "workerTierName": null
+}
+```
